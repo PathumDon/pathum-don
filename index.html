@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- Hero Section -->
+     <section id="hero" >
+
+        <!-- nav bar container -->
+         <div class="bg-white mx-auto py-8 ">
+            <!-- nave bar -->
+         <nav class="container flex md:px-0 px-14 max-w-screen-xl  mx-auto items-center justify-between font-bold bg-white">
+            <div class="logo text-3xl text-red-500"><a href="">Pathum Don</a></div>
+
+            <div class="md:flex text-blue-900 text-xl space-x-6 hidden md:">
+                <div class="group">
+                    <a class="hover:text-red-500 px-3" href="#">Home</a>
+                </div>
+                <div class="group">
+                    <a class="hover:text-red-500 px-3" href="#">My Intro</a>
+                </div>
+                <div class="group">
+                    <a class="hover:text-red-500 px-3" href="#">Qualification</a>
+                </div>
+                <div class="group">
+                    <a class="hover:text-red-500 px-3" href="#">Achivement</a>
+                </div>
+                <div class="group">
+                    <a class="hover:text-red-500 px-3" href="#">Contact</a>
+                </div>
+
+            </div>
+            <div class="md:hidden">
+                <button id="menu-btn" type="button" class=" z-40 block hamburger md:hidden focus:outline-none">
+                    <span class="hamburger-top"></span>
+                    <span class="hamburger-middle"></span>
+                    <span class="hamburger-bottom"></span>
+                </button>
+            </div>
+
+            <div id="menu" class="absolute top-0 bottom-0 left-0 hidden flex-col self-end w-full min-h-screen py-1 pt-40 pl-12 space-y-3 text-lgtext-blue-900 uppercase bg-white">
+
+                <a href="" class="hover:text-pink-500">Home</a>
+                <a href="" class="hover:text-pink-500">My Intro</a>
+                <a href="" class="hover:text-pink-500">Qualification</a>
+                <a href="" class="hover:text-pink-500">Achivement</a>
+                <a href="" class="hover:text-pink-500">Contact</a>
+              </div> 
+            
+         </nav>        
+         </div>
+        <!-- todo Mobile menu -->
+
+        <!-- hero container -->
+         <div class="bg-gray-100">
+
+            <div class="container md:px-0 px-14 max-w-screen-xl flex md:flex-row space-x-40 items-center mx-auto h-screen flex-col justify-center">
+                <div class="flex flex-col space-y-12 md:space-y-14">
+                    <h2 class="md:text-2xl text-xl text-red-500 font-semibold">Hi, Iam</h2>
+                    <h1 class="md:text-6xl text-4xl">Pathum Don</h1>
+                    <h2 class="text-gray-600 md:text-3xl text-xl">Data Analyst | Web Developer</h2>
+                    <p class="md:text-xl text-md text-gray-600">Streamlining Telecommunications Operations with Data-Driven Automation and Customer-Centric Solutions</p>
+
+                    <div class="flex md:flex-row flex-col md:space-x-11 space-x-0 md:space-y-0 space-y-10">
+                        <button class="text-white text-lg font-bold bg-red-500 rounded-full px-8 py-4 hover:scale-110 duration-200">Download CV</button>
+                        <button class="text-red-500 text-lg font-bold border border-red-500 rounded-full px-8 py-4 hover:scale-110 duration-200">Contact Me</button>
+                    </div>
+                </div>
+                <div class="hidden md:block">
+                    <img src="images/Pic.jpg" alt="" width="70%">
+                </div>
+
+            </div>
+         </div>
+        
+     </section>
+
+     <!-- About section -->
+     <section id="about">
+        <div class="container md:px-0 px-14 max-w-screen-xl mx-auto md:mt-20 mt-10 flex flex-col md:flex-row md:space-x-20 items-center justify-start space-y-10">
+
+            <img src="images/about-pic.png" alt="" class="w-full">
+
+            <div class="flex flex-col space-y-6">
+                <h3 class="md:text-2xl text-xl text-red-500 font-semibold">My Intro</h3>
+                <h1 class="md:text-6xl text-4xl">About Me</h1>
+                <p class="text-lg">Welcome to my professional space! I am a dedicated Analyst and RPA Developer in the Enterprise Channel Operations department of a leading telecommunications company. With a passion for data-driven insights and process automation, I specialize in delivering daily SLA reports and productivity analyses that drive operational efficiency. My innovative RPA solutions have significantly streamlined workflows, reduced manual effort, and boosted team productivity.</p>
+                <p class="text-lg">I am committed to leveraging my skills in automation and analytics to continuously improve operational performance and contribute to the success of my organization. Thank you for visiting, and I look forward to connecting with you!</p>
+
+                <div class="grid grid-cols-6  gap-1 ">
+                    <div class="">Name</div>
+                    <div class="">:</div>
+                    <div class="col-span-4">Pathum Chathuranga</div>
+                </div>
+                <div class="grid grid-cols-6 gap-1">
+                    <div>Phone</div>
+                    <div>:</div>
+                    <div class="col-span-4"><a href="tel:+971529059494">+971529059494</a></div>
+                </div>
+                <div class="grid grid-cols-6 gap-1">
+                    <div>Email</div>
+                    <div>:</div>
+                    <div class="col-span-4"><a href="mailto:">pathum.chathuranga1@outlook.com</a></div>
+                </div>
+
+                <h4 class="text-gray-800 font-semibold text-xl">Social</h4>
+
+                <div class="flex flex-row space-x-16 text-gray-600">
+                    <a class="hover:text-red-500 hover:scale-105 duration-100"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                      </svg></a>
+                      <a class="hover:text-red-500 hover:scale-105 duration-100" href=""><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                        <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+                      </svg></a>
+                    <a class="hover:text-red-500 hover:scale-105 duration-100" href=""><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401m-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4"/>
+                      </svg></a>
+                    <a class="hover:text-red-500 hover:scale-105 duration-100" href=""><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                        <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"/>
+                      </svg></a>
+
+                </div>
+
+            </div>
+        </div>
+     </section>
+
+     <section id="expert-area" class="bg-gray-100 mt-20">
+        <div class="container md:px-0 px-14 max-w-screen-xl mx-auto text-center py-12">
+            <h3 class="mb-6 md:text-2xl text-xl text-red-500 font-semibold">Why Choose Me</h3>
+            <h1 class="md:text-6xl text-4xl">My Expertise Area</h1>
+            <div class="grid grid-cols-1 md:gap-x-20 gap-y-10 pt-10 md:grid-cols-2">
+                <div class="">
+                    <div class="mb-3 text-left font-medium dark:text-white text-xl">Data Analysing</div>
+                    <div class="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-900">
+                    <div class="bg-blue-600 h-2.5 rounded-full dark:bg-blue-500" style="width: 85%"></div>
+                    </div>
+                </div>
+
+                <div class="">
+                    <div class="mb-3 text-left font-medium dark:text-white text-xl">Data Visualization</div>
+                    <div class="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-900">
+                    <div class="bg-blue-600 h-2.5 rounded-full dark:bg-blue-500" style="width: 85%"></div>
+                    </div>
+                </div>
+
+                <div class="">
+                    <div class="mb-3 text-left font-medium dark:text-white text-xl">Web Development</div>
+                    <div class="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-900">
+                    <div class="bg-blue-600 h-2.5 rounded-full dark:bg-blue-500" style="width: 80%"></div>
+                    </div>
+                </div>
+
+                <div class="">
+                    <div class="mb-3 text-left font-medium dark:text-white text-xl">Python Programming</div>
+                    <div class="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-900">
+                    <div class="bg-blue-600 h-2.5 rounded-full dark:bg-blue-500" style="width: 70%"></div>
+                    </div>
+                </div>
+                
+
+
+            </div>
+        </div>
+
+     </section>
+
+     <section id="qualification">
+        <div class="container md:px-0 px-14 max-w-screen-xl mx-auto text-center pt-12">
+            <h3 class="mb-6 md:text-2xl text-xl text-red-500 font-semibold">My Qualification</h3>
+            <h1 class="md:text-6xl text-4xl pb-10">Awesome Journey</h1>
+
+            <div class="grid grid-col-1 md:grid-cols-2 md:gap-20 gap-4">
+                <div>
+                <h2 class="md:text-4xl text-2xl  font-semibold text-left pb-10">Education</h2>
+                <div class="flex flex-row space-x-3 mb-10">
+
+                    <div class='mb-5'>
+                        <div class='flex items-center justify-center h-5 w-5 rounded-full border-2 border-red-400'>
+                            <div class="bg-red-500 h-3 w-3 rounded-full"></div>
+                        </div>
+                        <div class='ml-2 h-20 w-0 border-2 border-red-400'></div>
+                    </div>
+                    <div class='flex flex-col text-left space-y-3'>
+                        <div class='text-lg font-semibold'>Post Graduate in Data Science</div>
+                        <div class=''>London Collage of Proffesiional Studies, UK</div>
+                        <div>2024</div>
+                    </div>
+                    
+                </div>
+
+                <div class="flex flex-row space-x-3 mb-10">
+
+                    <div class='mb-5'>
+                        <div class='flex items-center justify-center h-5 w-5 rounded-full border-2 border-red-400'>
+                            <div class="bg-red-500 h-3 w-3 rounded-full"></div>
+                        </div>
+                        <div class='ml-2 h-20 w-0 border-2 border-red-400'></div>
+                    </div>
+                    <div class='flex flex-col text-left space-y-3'>
+                        <div class='text-lg font-semibold'>Diploma in Infomation Technology</div>
+                        <div class=''>SITC Campus, Sri Lankan</div>
+                        <div>2013</div>
+                    </div>
+                    
+                </div>
+                
+                </div>
+
+                    <div>
+                    <h2 class="md:text-4xl text-2xl font-semibold text-left pb-10">Experience</h2>
+                    <div class="flex flex-row space-x-3 mb-10">
+    
+                        <div class='mb-5'>
+                            <div class='flex items-center justify-center h-5 w-5 rounded-full border-2 border-red-400'>
+                                <div class="bg-red-500 h-3 w-3 rounded-full"></div>
+                            </div>
+                            <div class='ml-2 h-20 w-0 border-2 border-red-400'></div>
+                        </div>
+                        <div class='flex flex-col text-left space-y-3'>
+                            <div class='text-lg font-semibold'>Analyst | RPA Developer</div>
+                            <div class=''>Du Telecome, UAE</div>
+                            <div>2017 - Till Date</div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="flex flex-row space-x-3 mb-10">
+    
+                        <div class='mb-5'>
+                            <div class='flex items-center justify-center h-5 w-5 rounded-full border-2 border-red-400'>
+                                <div class="bg-red-500 h-3 w-3 rounded-full"></div>
+                            </div>
+                            <div class='ml-2 h-20 w-0 border-2 border-red-400'></div>
+                        </div>
+                        <div class='flex flex-col text-left space-y-3'>
+                            <div class='text-lg font-semibold'>Sales Support Executive</div>
+                            <div class=''>Du Telecome, UAE</div>
+                            <div>2014 - 2017</div>
+                        </div>
+                        
+                    </div>
+                    </div>
+                
+            </div>
+            
+        </div>
+     </section>
+
+     <section id="achivement" class="bg-gray-100 pb-20">
+        <div class="container md:px-0 px-14 max-w-screen-xl mx-auto text-center pt-12">
+            <h3 class="mb-6 md:text-2xl text-xl text-red-500 font-semibold">My Achivements</h3>
+            <h1 class="md:text-6xl text-4xl pb-10">Achivements</h1>
+
+            <div class="grid grid-col-1 md:grid-cols-3 gap-10">
+                <!-- card -->
+                 <div class="bg-white p-10 shadow-sm rounded-lg text-left">
+                    <h4 class="md:text-xl text-md font-semibold pb-6">Enhanced Operational Efficiency:</h4>
+                    <p class="md:text-lg text-sm">Developed and implemented multiple RPA solutions, reducing manual workload by 40% and significantly increasing team productivity.</p>
+                 </div>
+
+                 <div class="bg-white p-10 shadow-sm rounded-lg text-left">
+                    <h4 class="md:text-xl text-md font-semibold pb-6">Improved SLA Compliance:</h4>
+                    <p class="md:text-lg text-sm">Consistently delivered detailed SLA reports and productivity analyses, leading to a 20% improvement in meeting service level agreements.</p>
+                 </div>
+
+                 <div class="bg-white p-10 shadow-sm rounded-lg text-left">
+                    <h4 class="md:text-xl text-md font-semibold pb-6">Streamlined Fulfillment Process:</h4>
+                    <p class="md:text-lg text-sm">Successfully automated critical processes within the fulfillment workflow, resulting in faster and more accurate order processing.</p>
+                 </div>
+
+                 <div class="bg-white p-10 shadow-sm rounded-lg text-left">
+                    <h4 class="v font-semibold pb-6">Innovation in Automation:</h4>
+                    <p class="md:text-lg text-sm">Leveraged RPA technologies to drive innovation in process automation, positioning the company at the forefront of operational excellence in the telecommunications industry.</p>
+                 </div>
+
+            </div>
+
+        </div>
+     </section>
+
+     <section id="contact-me ">
+
+        <div class="md:px-0 px-14 max-w-screen-xl mx-auto text-center pt-12">
+            <h3 class="mb-6 md:text-2xl text-xl text-red-500 font-semibold">Contact Me</h3>
+            <h1 class="pb-10 md:text-6xl text-4xl">Get in Touch</h1>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 md:gap-x-20 gap-x-0 md:gap-y-0 gap-y-20 justify-end">
+                <div class="md:col-span-2">
+                    <form class="">
+
+                        <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+                              <div class="md:col-span-3 col-span-full">
+                                <label for="first-name" class="block text-lg font-medium leading-6 text-gray-900 text-left">First name</label>
+                                <div class="mt-2">
+                                  <input type="text" name="first-name" id="first-name"  class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                                </div>
+                              </div>
+                      
+                      
+                              <div class="md:col-span-3 col-span-full">
+                                <label for="email" class="block text-lg font-medium leading-6 text-gray-900 text-left">Email address</label>
+                                <div class="mt-2">
+                                  <input id="email" name="email" type="email"  class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                                </div>
+                              </div>
+        
+                              <div class="sm:col-span-6">
+                                <label for="subject" class="block text-lg font-medium leading-6 text-gray-900 text-left">Subject</label>
+                                <div class="mt-2">
+                                  <input type="text" name="subject" id="subject"  class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                                </div>
+                              </div>
+        
+                              <div class="col-span-full">
+                                <label for="about" class="block text-lg font-medium leading-6 text-gray-900 text-left">Messege</label>
+                                <div class="mt-2">
+                                  <textarea id="about" name="about" rows="3" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></textarea>
+                                </div>
+                                
+                              </div>
+                              
+                              
+                        </div>
+                        <div class="flex flex-row justify-start mt-12">                        
+                            <button type="submit" class="rounded-full bg-red-500 py-4 text-sm font-semibold text-white px-8">Send Message</button>
+                          </div>
+                        
+                    </form>
+                </div>
+                <div class="flex flex-col space-y-10 justify-center">
+                    <div class="flex flex-row items-center">
+                    
+                        <div class= "rounded-full p-4 text-white font-bold block bg-red-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                                <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                              </svg>
+                              
+                        </div>
+                
+                        <div class="flex-col space-y-4 ml-10 text-left">
+                            <div class="text-2xl font-semibold mb-4">Call Me</div>
+                            <a class="text-xl" href="tel:+971529059494">971529059494</a>
+                        </div>
+                        
+                        
+                    
+                
+                    </div>
+
+                    <div class="flex items-center">
+                    
+                            <div class= "rounded-full p-4 text-white font-bold block bg-red-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                                  </svg>
+                                  
+                            </div>
+                    
+                            <div class="flex-col ml-10 text-left">
+                                <div class="text-2xl font-semibold mb-4">Email Me</div>
+                                <a class="text-xl" href="mailto:pathum.chathuranga1@outlook.com">pathum.chathuranga1@outlook.com</a>
+                            </div>
+                    </div>
+
+                    <div class="flex items-center">
+                    
+                        <div class= "rounded-full p-4 text-white font-bold block bg-red-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                                <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
+                                <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                              </svg>
+                              
+                        </div>
+                
+                        <div class="flex-col space-y-4 ml-10 text-left">
+                            <div class="text-2xl font-semibold">Location</div>
+                            <div class="text-xl">Dubai, UAE</div>
+                        </div>
+                </div>
+                
+            </div>
+
+     </section>
+     <footer class="bg-blue-950 mt-10">
+        <div class="font-bold text-center text-white py-10">
+            &copy; 2024 pathum.online All rights reserved
+            </div>
+     </footer>
+     
+    
+
+     <script src="js/script.js"></script>
+    
+</body>
+</html>
